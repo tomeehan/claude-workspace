@@ -1,0 +1,5 @@
+# Workspace configuration
+# Copy this to .workspace and fill in your values
+
+REPO_URL=https://github.com/your-org/your-repo
+DB_PREFIX=yourapp_dev

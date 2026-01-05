@@ -1,0 +1,5 @@
+checkouts/
+.env
+.workspace
+.DS_Store
+.claude/settings.local.json
