@@ -17,3 +17,7 @@ Multiple Claude sessions can run in parallel from this folder, each with their o
 ## Finishing up
 
 Commit, push, open a PR. Leave the checkout in place.
+
+## UI Copy
+
+Use neutral, object-first UI copy (e.g., Settings, Files, Update password). Only use "your" if removing it causes confusion.
