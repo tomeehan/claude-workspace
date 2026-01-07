@@ -20,6 +20,8 @@ Run `/start` to begin a new task. It will:
 
 Multiple Claude sessions can run in parallel, each with their own checkout.
 
+**Playwright MCP:** Use `--isolated` so parallel sessions don't fight over the same browser. Downside: no persistent login state, so authenticated flows require logging in each time.
+
 ## Finishing up
 
 Commit, push, open a PR. Leave the checkout in place.

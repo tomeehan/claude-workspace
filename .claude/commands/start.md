@@ -8,26 +8,10 @@ Then:
 4. Set up isolated database for this checkout:
    - Append `DATABASE_NAME=<DB_PREFIX>_<name>` to the checkout's .env
    - Use underscores in the name (e.g., `myapp_dev_feature_auth`)
-5. Create `.mcp.json` in the checkout root with isolated Playwright config:
-```json
-   {
-     "mcpServers": {
-       "playwright": {
-         "command": "npx",
-         "args": [
-           "@playwright/mcp@latest",
-           "--user-data-dir",
-           "/tmp/pw-<name>"
-         ]
-       }
-     }
-   }
-```
-   Replace `<name>` with the checkout name. This prevents parallel sessions fighting over the same browser.
-6. cd into the checkout
-7. Run `bin/setup --skip-server` (creates the isolated database and loads schema)
-8. If a Linear ticket ID was provided:
+5. cd into the checkout
+6. Run `bin/setup --skip-server` (creates the isolated database and loads schema)
+7. If a Linear ticket ID was provided:
    - Save it to `.linear-ticket` in the checkout root
    - Mark it as "In Progress" using the Linear MCP tools
    - Create a branch named after the ticket (e.g., `abc-123-short-description`)
-9. Ask me what I want to do first
+8. Ask me what I want to do first
