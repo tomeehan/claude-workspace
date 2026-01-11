@@ -21,3 +21,19 @@ Commit, push, open a PR. Leave the checkout in place.
 ## UI Copy
 
 Use neutral, object-first UI copy (e.g., Settings, Files, Update password). Only use "your" if removing it causes confusion.
+
+## ViewComponents
+
+Use slots for content that renders as UI (text, HTML, other components). Use args for logic and behavior (booleans, options, configuration).
+
+```ruby
+# Good - slots for UI content
+renders_one :label
+renders_one :value
+
+# Good - args for logic
+def initialize(variant: :default, disabled: false)
+
+# Bad - args for UI content
+def initialize(label:, value:)
+```
