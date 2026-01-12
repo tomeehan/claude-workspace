@@ -18,6 +18,11 @@ Multiple Claude sessions can run in parallel from this folder, each with their o
 
 Commit, push, open a PR. Leave the checkout in place.
 
+## Git Rules
+
+- Do not commit to main
+- Do not push to main
+
 ## UI Copy
 
 Use neutral, object-first UI copy (e.g., Settings, Files, Update password). Only use "your" if removing it causes confusion.

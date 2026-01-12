@@ -1,5 +1,7 @@
 Prepare and open a PR for the current work.
 
+Do not commit or push to main.
+
 Steps:
 
 1. **Run /commit** — Execute the /commit command to create atomic commits.

@@ -1,5 +1,7 @@
 Prepare atomic commits for the current work.
 
+Do not commit or push to main.
+
 Steps:
 
 1. **Run related tests** — Identify which tests are relevant to the changed files and run them. If tests fail, stop and report the failures.
